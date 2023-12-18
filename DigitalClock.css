@@ -1,0 +1,34 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(Background.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #ECF0F1;
+}
+
+#clock-container {
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #525252;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background: transparent;
+    color: #333;
+    margin-left: 65px;
+    
+}
+
+#time {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#date {
+    font-size: 1.2em;
+}
